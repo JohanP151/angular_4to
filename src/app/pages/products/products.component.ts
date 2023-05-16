@@ -37,7 +37,7 @@ export class ProductComponent implements OnInit {
   const data = {
     title: 'Camiseta NEW COLLECTION',
     price: 650,
-    description: 'Camiseta T40 / Melanie Tandalla',
+    description: 'Camiseta T40 / Johan Pavon',
     images: [
       'https://m.media-amazon.com/images/I/51A+xXT0yiL._AC_SY580_.jpg',
     ],
@@ -54,7 +54,7 @@ export class ProductComponent implements OnInit {
   const data = {
     title: 'Camiseta Antigua Coleccion',
     price: 1150,
-    description: 'Blusa T36 / Melanie Tandalla',
+    description: 'Blusa T36 / Johan Pavon',
   };
   this.productHttpService.update(498,data).subscribe(
     response => {
